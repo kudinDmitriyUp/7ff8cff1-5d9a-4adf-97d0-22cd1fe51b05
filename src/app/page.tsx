@@ -44,10 +44,10 @@ export default function VineyardPage() {
 
       <div id="hero" data-section="hero">
         <HeroOverlay
-          title="Vinos Premium del Valle de Guadalupe"
+          title="Wine and Dine "
           description="Descubre vinos artesanales que encarnan generaciones de tradición vinícola y excelencia en Baja California"
           tag="Bodega Desde 1985"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764602244824-3un1scf9.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764612962654-efg496cj.jpg"
           imageAlt="Paisaje de viñedos del Valle de Guadalupe"
           textPosition="bottom-left"
           showBlur={true}
