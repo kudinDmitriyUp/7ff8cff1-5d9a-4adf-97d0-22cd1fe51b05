@@ -27,16 +27,16 @@ export default function VineyardPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Vineyard Estate"
+          brandName="Valle de Guadalupe"
           navItems={[
-            { name: "Home", id: "hero" },
-            { name: "About", id: "about" },
-            { name: "Wines", id: "product" },
-            { name: "Reviews", id: "testimonial" },
-            { name: "Contact", id: "contact" }
+            { name: "Inicio", id: "hero" },
+            { name: "Nosotros", id: "about" },
+            { name: "Vinos", id: "product" },
+            { name: "Testimonios", id: "testimonial" },
+            { name: "Contacto", id: "contact" }
           ]}
           button={{
-            text: "Order Now",
+            text: "Ordena Ahora",
             href: "contact"
           }}
         />
@@ -44,77 +44,77 @@ export default function VineyardPage() {
 
       <div id="hero" data-section="hero">
         <HeroOverlay
-          title="Premium Wines from Our Estate"
-          description="Discover carefully crafted wines that embody generations of vineyard tradition and excellence"
-          tag="Estate Since 1985"
+          title="Vinos Premium del Valle de Guadalupe"
+          description="Descubre vinos artesanales que encarnan generaciones de tradición vinícola y excelencia en Baja California"
+          tag="Bodega Desde 1985"
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764602244824-3un1scf9.jpg"
-          imageAlt="Wine vineyard landscape"
+          imageAlt="Paisaje de viñedos del Valle de Guadalupe"
           textPosition="bottom-left"
           showBlur={true}
           showDimOverlay={true}
           buttons={[
-            { text: "Shop Collection", href: "product" },
-            { text: "Learn More", href: "about" }
+            { text: "Ver Colección", href: "product" },
+            { text: "Conocer Más", href: "about" }
           ]}
         />
       </div>
 
       <div id="about" data-section="about">
         <TextSplitAbout
-          title="Our Story"
+          title="Nuestra Historia"
           description={[
-            "Our vineyard has been producing exceptional wines for nearly four decades. What began as a passion for winemaking has evolved into a renowned estate recognized throughout the region.",
-            "Every bottle reflects our commitment to quality, sustainability, and the art of winemaking. We work hand in hand with nature to produce wines that tell the story of our land.",
-            "From the careful selection of grapes to the precise aging process, each vintage represents our dedication to perfection and tradition."
+            "Nuestro viñedo ha estado produciendo vinos excepcionales durante casi cuatro décadas en el corazón del Valle de Guadalupe. Lo que comenzó como una pasión por la vinificación se ha convertido en una bodega reconocida en toda Baja California.",
+            "Cada botella refleja nuestro compromiso con la calidad, la sustentabilidad y el arte de la vinificación. Trabajamos de la mano con la naturaleza para producir vinos que cuentan la historia de nuestras tierras mexicanas.",
+            "Desde la cuidadosa selección de uvas hasta el proceso preciso de envejecimiento, cada cosecha representa nuestra dedicación a la perfección y la tradición del Valle de Guadalupe."
           ]}
           showBorder={true}
           buttons={[
-            { text: "Visit Us", href: "contact" }
+            { text: "Visítanos", href: "contact" }
           ]}
         />
       </div>
 
       <div id="feature" data-section="feature">
         <FeatureCardTen
-          title="What Sets Us Apart"
-          description="Excellence in every aspect of winemaking"
+          title="Lo Que Nos Distingue"
+          description="Excelencia en cada aspecto de la vinificación en Baja California"
           features={[
             {
               id: "1",
-              title: "Traditional Methods",
-              description: "We blend time-honored winemaking techniques with modern quality control",
+              title: "Métodos Tradicionales",
+              description: "Combinamos técnicas de vinificación ancestrales con control de calidad moderno en el Valle de Guadalupe",
               media: {
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764602245506-if0pynn9.jpg"
               },
               items: [
-                { icon: Leaf, text: "Organic vineyard practices" },
-                { icon: Droplets, text: "Natural fermentation process" }
+                { icon: Leaf, text: "Prácticas orgánicas de viñedo" },
+                { icon: Droplets, text: "Proceso natural de fermentación" }
               ],
               reverse: false
             },
             {
               id: "2",
-              title: "Perfect Aging",
-              description: "Our temperature-controlled cellars ensure optimal development of every vintage",
+              title: "Envejecimiento Perfecto",
+              description: "Nuestras cavas con temperatura controlada aseguran el desarrollo óptimo de cada cosecha del Valle",
               media: {
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/wine-barrel-cellar-storage-aging-1764602247137-198e6f01.jpg"
               },
               items: [
-                { icon: Clock, text: "Carefully monitored aging" },
-                { icon: Thermometer, text: "Ideal storage conditions" }
+                { icon: Clock, text: "Envejecimiento monitoreado cuidadosamente" },
+                { icon: Thermometer, text: "Condiciones ideales de almacenamiento" }
               ],
               reverse: true
             },
             {
               id: "3",
-              title: "Expert Tasting",
-              description: "Our master sommeliers curate each release with precision and passion",
+              title: "Cata Experta",
+              description: "Nuestros maestros sommeliers curan cada lanzamiento con precisión y pasión mexicana",
               media: {
                 imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/wine-tasting-room-vineyard-1764602248624-02eb52a8.jpg"
               },
               items: [
-                { icon: Glasses, text: "Expert tasting panels" },
-                { icon: Award, text: "Award-winning selections" }
+                { icon: Glasses, text: "Paneles de cata experta" },
+                { icon: Award, text: "Selecciones premiadas internacionalmente" }
               ],
               reverse: false
             }
@@ -126,29 +126,29 @@ export default function VineyardPage() {
 
       <div id="product" data-section="product">
         <ProductCardThree
-          title="Our Collection"
-          description="Explore our carefully curated selection of premium wines"
+          title="Nuestra Colección"
+          description="Explora nuestra selección cuidadosamente curada de vinos premium del Valle de Guadalupe"
           products={[
             {
               id: "1",
-              name: "Reserve Cabernet Sauvignon 2019",
-              price: "$58.00",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/red-wine-bottle-premium-label-1764602249924-e2c7fdcd.jpg",
-              imageAlt: "Cabernet Sauvignon wine bottle"
+              name: "Reserva Cabernet Sauvignon 2019",
+              price: "$1,150 MXN",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXWBwMZaYtk/tmp/red-wine-bottle-premium-label-1764602249924-e2c7fdcd.jpg",
+              imageAlt: "Botella de vino Cabernet Sauvignon del Valle de Guadalupe"
             },
             {
               id: "2",
               name: "Estate Merlot 2020",
-              price: "$42.00",
+              price: "$850 MXN",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/wine-bottle-cabernet-sauvignon-1764602251443-f09ffbf4.jpg",
-              imageAlt: "Merlot wine bottle"
+              imageAlt: "Botella de vino Merlot del Valle de Guadalupe"
             },
             {
               id: "3",
-              name: "Signature Red Blend 2021",
-              price: "$35.00",
+              name: "Mezcla Tinta Signature 2021",
+              price: "$700 MXN",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/wine-bottle-merlot-dark-red-1764602252998-6326d4f4.jpg",
-              imageAlt: "Red blend wine bottle"
+              imageAlt: "Botella de vino mezcla tinta del Valle de Guadalupe"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -159,40 +159,40 @@ export default function VineyardPage() {
 
       <div id="testimonial" data-section="testimonial">
         <TestimonialCardTwo
-          title="Wine Lover Stories"
-          description="Hear from enthusiasts who cherish our wines"
+          title="Historias de Amantes del Vino"
+          description="Escucha a los entusiastas que aprecian nuestros vinos del Valle de Guadalupe"
           testimonials={[
             {
               id: "1",
-              name: "Michael Richardson",
-              role: "Wine Collector",
-              testimonial: "The complexity and elegance of these wines is unmatched. Each bottle tells a story of the vineyard's dedication to excellence.",
+              name: "Miguel Rodríguez",
+              role: "Coleccionista de Vinos",
+              testimonial: "La complejidad y elegancia de estos vinos del Valle de Guadalupe es incomparable. Cada botella cuenta la historia de la dedicación del viñedo a la excelencia.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/portrait-professional-man-wine-enthusias-1764602254279-8d4d4496.jpg",
-              imageAlt: "Michael Richardson"
+              imageAlt: "Miguel Rodríguez"
             },
             {
               id: "2",
-              name: "Sarah Mitchell",
+              name: "María Fernández",
               role: "Sommelier",
-              testimonial: "I recommend these wines to all my clients. The quality is consistently exceptional year after year.",
+              testimonial: "Recomiendo estos vinos de Baja California a todos mis clientes. La calidad es consistentemente excepcional año tras año.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/portrait-professional-woman-sommelier-1764602255654-fbba9d3a.jpg",
-              imageAlt: "Sarah Mitchell"
+              imageAlt: "María Fernández"
             },
             {
               id: "3",
-              name: "James Chen",
-              role: "Restaurant Owner",
-              testimonial: "Our guests love featuring these wines on our list. They represent the pinnacle of winemaking artistry.",
+              name: "Carlos Chen",
+              role: "Propietario de Restaurante",
+              testimonial: "A nuestros huéspedes les encanta que presentemos estos vinos en nuestra carta. Representan la cúspide del arte vinícola mexicano.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/portrait-professional-man-wine-collector-1764602256917-b07cbb7a.jpg",
-              imageAlt: "James Chen"
+              imageAlt: "Carlos Chen"
             },
             {
               id: "4",
-              name: "Elena Rossi",
-              role: "Wine Enthusiast",
-              testimonial: "From the first sip, I knew these were wines worth savoring. Truly a treasure from the vineyard.",
+              name: "Elena Morales",
+              role: "Enófila",
+              testimonial: "Desde el primer sorbo, supe que estos eran vinos dignos de saborear. Verdaderamente un tesoro del Valle de Guadalupe.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/tmp/portrait-professional-woman-wine-lover-1764602258400-43d838ac.jpg",
-              imageAlt: "Elena Rossi"
+              imageAlt: "Elena Morales"
             }
           ]}
           textboxLayout="default"
@@ -202,53 +202,53 @@ export default function VineyardPage() {
 
       <div id="contact" data-section="contact">
         <ContactSplitForm
-          title="Get In Touch"
-          description="Reach out to us for wine orders, vineyard visits, or any inquiries about our collection"
+          title="Ponte en Contacto"
+          description="Contáctanos para pedidos de vino, visitas al viñedo, o cualquier consulta sobre nuestra colección del Valle de Guadalupe"
           inputs={[
             {
               name: "name",
               type: "text",
-              placeholder: "Your Name",
+              placeholder: "Tu Nombre",
               required: true
             },
             {
               name: "email",
               type: "email",
-              placeholder: "Your Email",
+              placeholder: "Tu Email",
               required: true
             }
           ]}
           textarea={{
             name: "message",
-            placeholder: "Tell us about your wine preferences or inquiry...",
+            placeholder: "Cuéntanos sobre tus preferencias de vino o tu consulta...",
             rows: 5,
             required: true
           }}
-          buttonText="Send Message"
+          buttonText="Enviar Mensaje"
           mediaPosition="right"
         />
       </div>
 
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
-          logoText="Vineyard Estate"
+          logoText="Valle de Guadalupe"
           columns={[
             {
               items: [
-                { label: "Home", href: "hero" },
-                { label: "About", href: "about" }
+                { label: "Inicio", href: "hero" },
+                { label: "Nosotros", href: "about" }
               ]
             },
             {
               items: [
-                { label: "Shop", href: "product" },
-                { label: "Reviews", href: "testimonial" }
+                { label: "Tienda", href: "product" },
+                { label: "Testimonios", href: "testimonial" }
               ]
             },
             {
               items: [
-                { label: "Contact", href: "contact" },
-                { label: "Visit Us", href: "contact" }
+                { label: "Contacto", href: "contact" },
+                { label: "Visítanos", href: "contact" }
               ]
             }
           ]}

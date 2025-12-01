@@ -11,27 +11,27 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Wine Estate | Vineyard Estate Wines",
-  description: "Discover award-winning wines from our established vineyard. Premium red wines crafted with tradition and excellence since 1985.",
-  keywords: "wine, vineyard, red wine, premium wines, wine estate, cabernet sauvignon, merlot",
+  title: "Valle de Guadalupe Wineries | Premium Baja California Wines",
+  description: "Discover award-winning wines from the prestigious Valle de Guadalupe in Baja California. Premium wines crafted with tradition and excellence since 1985.",
+  keywords: "Valle de Guadalupe, Baja California wines, Mexican wine, premium wines, wine valley, cabernet sauvignon, merlot, Ensenada wines",
   metadataBase: new URL("https://webild.io"),
   alternates: {
     canonical: "https://webild.io"
   },
   openGraph: {
-    title: "Premium Wine Estate | Vineyard Estate Wines",
-    description: "Discover award-winning wines from our established vineyard. Premium red wines crafted with tradition and excellence since 1985.",
+    title: "Valle de Guadalupe Wineries | Premium Baja California Wines",
+    description: "Discover award-winning wines from the prestigious Valle de Guadalupe in Baja California. Premium wines crafted with tradition and excellence since 1985.",
     type: "website",
-    siteName: "Vineyard Estate",
+    siteName: "Valle de Guadalupe Winery",
     images: [{
       url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764602244824-3un1scf9.jpg",
-      alt: "Wine vineyard landscape"
+      alt: "Valle de Guadalupe vineyard landscape"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Premium Wine Estate | Vineyard Estate Wines",
-    description: "Discover award-winning wines from our established vineyard. Premium red wines since 1985.",
+    title: "Valle de Guadalupe Wineries | Premium Baja California Wines",
+    description: "Discover award-winning wines from the prestigious Valle de Guadalupe in Baja California since 1985.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764602244824-3un1scf9.jpg"]
   }
 };
